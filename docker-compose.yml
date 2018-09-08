@@ -5,7 +5,7 @@ services:
     labels:
       kompose.service.type: nodeport
     ports:
-      - '80:8080'
+      - '8080:80'
       - '443:443'
     volumes:
       - 'dokuwiki_data:/bitnami'
